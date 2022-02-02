@@ -11,6 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 
 public class doctorregistration extends HttpServlet
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	Connection con=null;
 	PreparedStatement pst=null;
 	public void init(ServletConfig config)
@@ -31,7 +35,7 @@ public class doctorregistration extends HttpServlet
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}
+	} 
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException
 	{

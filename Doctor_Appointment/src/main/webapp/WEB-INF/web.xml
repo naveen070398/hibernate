@@ -3,7 +3,7 @@
 
 	<servlet>
 		<servlet-name>first</servlet-name>
-		<servlet-class>com.mondee.DoctorRegister</servlet-class>
+		<servlet-class>com.Doctor_Appointment.doctorregistration</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
